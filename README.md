@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+This project is a full-stack To-Do application developed using Spring Boot for the backend and React.js for the frontend. It provides a seamless way to manage daily tasks with a clean, responsive interface and a robust backend powered by Java and Spring.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The backend is built with Spring Boot, exposing a RESTful API to handle task management. It supports CRUD operations (Create, Read, Update, Delete), enabling users to add new tasks, update existing ones, delete tasks, and mark them as completed or pending. Data is persisted using a database integration, ensuring reliability and scalability.
 
-## Available Scripts
+On the frontend, React.js is used to create an interactive and user-friendly interface. The application communicates with the backend through API calls (Axios/Fetch) and dynamically updates the UI based on user actions. The interface is designed to be responsive and intuitive, making task management efficient on both desktop and mobile devices.
 
-In the project directory, you can run:
+Key Features:
 
-### `npm start`
+Add, edit, delete, and view tasks easily
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mark tasks as completed or pending
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+REST API with Spring Boot for backend operations
 
-### `npm test`
+Frontend powered by React.js with responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API integration using Axios/Fetch for smooth communication
 
-### `npm run build`
+Persistent data storage with database support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tech Stack:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React.js, JavaScript, HTML, CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend: Java, Spring Boot, REST API
 
-### `npm run eject`
+Database: MySQL / H2 (depending on setup)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tools: Maven/Gradle, Axios/Fetch, GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project demonstrates full-stack development skills by integrating a modern Java backend with a JavaScript-based frontend. It is a great example of how Spring Boot and React can be combined to build scalable, maintainable, and user-friendly web applications.
